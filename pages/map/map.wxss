@@ -1,0 +1,10 @@
+.button-larger{
+ 
+  align-items: flex-end;
+  
+}
+.button-smaller{
+
+  align-items: flex-end;
+ 
+}

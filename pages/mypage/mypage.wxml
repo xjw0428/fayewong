@@ -1,0 +1,21 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class="text">
+    <text>{{direction}}</text>
+    <text>{{angle}}°</text>
+  </view>
+  <view class="pic">
+    <image src="../../images/compass.png" style="transform: rotate({{rotate}}deg);"></image>
+  </view>
+  <view class="text">
+    <text>x:{{x}} </text>
+    <text>y:{{y}} </text>
+    <text>z:{{z}} </text>
+  </view>
+   <view class="mylocation" >
+    <text>纬度:{{latitude}}  \n</text>
+    <text>经度:{{longitude}}  \n</text>
+    <text>速度:{{speed}} m/s \n</text>
+    <text>精度:{{accuracy}}  \n</text>
+  </view>
+</view>

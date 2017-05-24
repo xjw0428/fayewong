@@ -1,0 +1,3 @@
+.mylocation{
+  flex-direction: row;
+}

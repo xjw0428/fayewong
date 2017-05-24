@@ -1,0 +1,10 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: space-between;/*元素位于各行之间留有空白的容器内*/
+  padding: 200rpx 0;/*可以根据屏幕宽度进行自适应。假设屏幕宽750rpx*/
+  box-sizing: border-box;
+} 

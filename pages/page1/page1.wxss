@@ -1,0 +1,7 @@
+/* pages/page1/page1.wxss */
+.topic-group{
+    flex-direction: row;
+    background:#e5e5e5;
+    padding:10rpx;
+    margin-top:15px;
+}

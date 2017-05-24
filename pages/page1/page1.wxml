@@ -1,0 +1,5 @@
+<view class="container">
+    <text class="topic-group">网络</text>
+    <view wx:for="{{requestData}}">{{item.name}}</view>
+    <button bindtap="requestFromServer" type="primary">发起请求</button>
+</view>
